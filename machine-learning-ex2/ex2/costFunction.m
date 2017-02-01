@@ -26,6 +26,7 @@ J = value ./ m;
 
 C = h - y;
 E = X.' * C;
+E = E./m;
 grad = E.';
 
 
